@@ -6,7 +6,7 @@ import generator.UserPredicatesGenerator
 import predicates.Predicate
 import java.util.*
 
-fun main(args: Array<String>) {
+fun main() {
     println(">> Benchmarks: CAP 100 rules ");
     benchmarkCap(10,100);
     benchmarkCap(100,100);
