@@ -3,11 +3,11 @@ package events
 class StockDown(val symbol: String, val amount: Double): Event{
 
     override fun amount(): Double {
-        TODO("Not yet implemented")
+        return amount
     }
 
     override fun symbol(): String {
-        TODO("Not yet implemented")
+        return symbol
     }
 
 }
